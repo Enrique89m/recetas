@@ -13,7 +13,7 @@ export default function Inputtext({ value, onChange} : Props) {
                 value={value}
                 onChange={onChange}
                 placeholder="Introduce el ingrediente"
-                className="flex-1 border border-gray-300 rounded px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-auto border border-gray-300 rounded px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
         </>
     )
